@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 function Home({ CardTitle, CardSubtitle, Description }) {
   return (
     <>
+      <div> hello</div>
       {/* <div className="final">
         <div className="card">
           <div className="card-body">
@@ -42,7 +43,7 @@ function Home({ CardTitle, CardSubtitle, Description }) {
         </div>
       </div> */}
 
-      <div> hello</div>
+    
     </>
   );
 }

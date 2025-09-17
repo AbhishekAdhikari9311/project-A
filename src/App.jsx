@@ -6,6 +6,8 @@ import Contact from "./Contact";
 import Card from "./Card";
 
 function App() {
+
+
   return (
     <>
       <BrowserRouter>
@@ -16,7 +18,7 @@ function App() {
           {/* <Route path="/c" element={<Home />} /> */}
           <Route path="/d" element={<Contact />} />
 
-          <Route path="/c" element={<h1>"hello newari"</h1>} />
+          <Route path="/" element={<h1>hello newari</h1>} />
         </Routes>
       </BrowserRouter>
     </>
