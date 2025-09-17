@@ -1,0 +1,42 @@
+.final {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card {
+  max-width: 55vw;
+  background: white;
+  border-radius: 10px;
+  /* position: relative; */
+  max-height: 40vh;
+
+  border: solid 10px, black;
+}
+
+.card-body {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+
+  text-align: left; /* centers text */
+  /* position: relative; */
+  padding-top: 2px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: black; /* better contrast with dark purple background */
+  margin-bottom: 8px; /* spacing below title */
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  color: black;
+  /* margin-bottom: 12px; */
+}
+
+.card-description {
+  font-size: 1.2rem;
+  color: black;
+}
