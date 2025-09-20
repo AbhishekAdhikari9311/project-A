@@ -1,27 +1,28 @@
-.final {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-}
+
 
 .card {
   max-width: 55vw;
   background: white;
   border-radius: 10px;
-  /* position: relative; */
+  gap: 35px;
   max-height: 40vh;
-
-  border: solid 10px, black;
+/* border: solid 100px, black; */
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 25vh;
 }
 
 .card-body {
   /* padding: 20px; */
   display: flex;
   flex-direction: column; /* stack items vertically */
-
+border: 5px solid red;
   text-align: left; /* centers text */
   /* position: relative; */
-  padding-top: 2px;
+  padding: 20px;
+  /* position: absolute; */
+  /* top: 5vh; */
 }
 
 .card-title {
